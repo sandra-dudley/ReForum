@@ -24,7 +24,7 @@
     "node": "7.1.0"
   },
   "scripts": {
-    "test": "",
+    "test": "tape test/**/*.test.js",
     "lint": "eslint backend frontend --color ; exit 0",
     "start": "better-npm-run start",
     "start:dev": "better-npm-run start:dev",
@@ -97,6 +97,7 @@
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
     "sinon": "^2.3.4",
+    "sinon-mongoose": "^2.0.2",
     "style-loader": "^0.13.1",
     "tape": "^4.6.3",
     "url-loader": "^0.5.7",
